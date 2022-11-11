@@ -1,0 +1,62 @@
+HTML
+
+    Cosas que creo que se me pueden llegar a olvidar:
+
+    -link
+    -table
+    -textarea
+    -tr, th
+    -html
+    -rel="icon"
+
+###########################################################################################
+
+CSS
+
+    Cosas que creo que se me pueden llegar a olvidar: 
+
+    -Height es el alto y Width es el ancho
+
+    -"box-shadow: 0 0 0;" El primero es el eje X, el segundo el eje Y, el tercero es el desenfoque de la sombra,el cuarto es el tamaño de la sombra y por ultimo el color (el text-shadow: ; no tiene tamaño de la sombra, solo difuminado) 
+
+    -overflow
+    -outline/border
+    -solid
+    -text-decoration
+    -text-align
+    -justify-content
+    -align-items
+    -width
+    -height
+    -max-widht / min-width
+    -max-heigth / min-heigth
+    -shadow (text-shadow, border-shadow, etc)
+    -display
+    -flex-direction
+    -inline / block / inline-block (el inline-block se diferencia del inline ya que al inline-block si se le puede dar las propiedades de width y heigth mientras que al inline no)
+    -font-style
+    -link, visited, hover, active (El orden es importante)
+    -list-style-type
+    -list-style-position
+    -border-collapse
+    -cursor: pointer;
+    -odd (par) / even (impar)
+    -nth-child()
+    -visibility
+    -position (static, relative, fixed, absolute, sticky)
+    -float
+    -transition (0.3s, 1s, etc) (ease, linear)
+    -linear-gradient (background-image)
+
+###########################################################################################
+
+JAVASCRIPT
+
+
+###########################################################################################
+
+OTROS
+
+    -Me quedé en 1:55:20 del tutorial de soy dalto de CSS y ya completé el tutorial de hola mundo de CSS
+
+    -Me quedé en 0:16:00 del tutorial de deivchoi de JAVASCRIPT 

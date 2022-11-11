@@ -2,7 +2,7 @@
 /* All page */
 * {
     font-family: sans-serif;
-    font-size: 100%;
+    font-size: 17px;
 }
 
 /* #### */
@@ -22,24 +22,6 @@ input {
     transform: rotate(-4deg);
 }
 
-button {
-    font-weight: 560;
-    padding: 4px 20px;
-    display: block;
-    margin: auto;
-    margin-top: 2%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    border-radius: 7px;
-    border-color: rgb(255, 0, 68);
-    /* box-shadow: ; */
-    /* El primero es el eje X, el segundo el eje Y, el tercero es el desenfoque de la sombra,el cuarto es el tamaño de la sombra y por ultimo el color (el text-shadow: ; no tiene tamaño de la sombra, solo difuminado) */
-    box-shadow: 3px 3px 3px 0 #000;
-    transform: rotate(7deg);
-}
-
 body {
     background-color: rgb(255, 123, 0);
 }
@@ -48,6 +30,7 @@ img {
     display: block;
     margin: 0 auto;
     border-color: rgb(255, 0, 68);
+    border-radius: 5px;
 }
 
 /* #### */
@@ -66,5 +49,72 @@ img {
 .tercera-parte {
     background-color: rgb(255, 0, 68);
 }
+
+#primer-boton {
+    font-weight: 560;
+    padding: 4px 20px;
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border-color: rgb(255, 0, 68);
+    box-shadow: 3px 3px 3px 0 #000;
+    transform: rotate(7deg);
+    cursor: pointer;
+}
+
+.texto-prueba {
+    margin-top: 26px; 
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../IMAGENES/monstruoHoja.png');
+    height: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+a:link {
+    color: rgb(205, 2, 56);
+}
+
+a:visited {
+    color:gray;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid ;
+}
+
+th:hover {
+    background-color: rgb(222, 237, 9);
+}
+
+tr:nth-child(even) {
+    background-color: #000;
+    color: blueviolet;
+    border-color: blueviolet;
+}
+
 
 
