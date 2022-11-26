@@ -3,11 +3,26 @@ HTML
     Cosas que creo que se me pueden llegar a olvidar:
 
     -link
+
     -table
+
     -textarea
+
     -tr, th
+
     -html
+
     -rel="icon"
+
+    -onclick (se puede usar para cada vez que se le de click al objeto determinado se llame una función de javascript por ejemplo)
+
+    -required
+
+    -placeholder
+
+    -checked
+
+    -checkbox / radio
 
 ###########################################################################################
 
@@ -20,37 +35,179 @@ CSS
     -"box-shadow: 0 0 0;" El primero es el eje X, el segundo el eje Y, el tercero es el desenfoque de la sombra,el cuarto es el tamaño de la sombra y por ultimo el color (el text-shadow: ; no tiene tamaño de la sombra, solo difuminado) 
 
     -overflow
+
     -outline/border
+
     -solid
+
     -text-decoration
+
     -text-align
+
     -justify-content
+
     -align-items
+
     -width
+
     -height
+
     -max-widht / min-width
+
     -max-heigth / min-heigth
+
     -shadow (text-shadow, border-shadow, etc)
+
     -display
+
     -flex-direction
+
     -inline / block / inline-block (el inline-block se diferencia del inline ya que al inline-block si se le puede dar las propiedades de width y heigth mientras que al inline no)
+
     -font-style
+
     -link, visited, hover, active (El orden es importante)
+
     -list-style-type
+
     -list-style-position
+
     -border-collapse
+
     -cursor: pointer;
+
     -odd (par) / even (impar)
+
     -nth-child()
+
     -visibility
+
     -position (static, relative, fixed, absolute, sticky)
+
     -float
+
     -transition (0.3s, 1s, etc) (ease, linear)
+    
     -linear-gradient (background-image)
+
+    -var (una variable en CSS se crea usando dos guiones medios (--) y se llama poniendo var seguido de unos parentesis y el nombre que ya le habiamos asignado anteriormente)
 
 ###########################################################################################
 
 JAVASCRIPT
+
+-Node.js('ctrl + c' para detener la ejecución de algo)
+
+-distinto (!=)
+
+-igual (=)
+
+-comparación (==)
+
+-comparación incluyendo el tipo (===)
+
+-mayor que (>)
+
+-menor que (<)
+
+-mayor o igual a que (>=)
+
+-menor o igual a que (<=)
+
+-AND (&&)
+
+-OR (||)
+
+-if / else / else if
+
+-while / for
+
+- ++ / -- (suman uno y restan uno respectivamente)
+
+-function (necesitas llamarla para ejecutarse)
+
+-arrays (los arrays se usan con listas atravez de "[]" los elementos de la lista siempre empiezan en cero)
+
+-objetos (para crear objetos a diferencia del array se usan "{}" y no "[]", al crear cada propiedad se debe poner un coma "," al final para que funcionen las demas que le siguen) | (se le pueden agregar propiedades nuevas fuera del objeto o llamar a una/s en especifico poniendo el nombre del objeto y luego poniendo un punto "." seguido de eso puedes colocar el nombre de la propiedad ya existente o el nombre de una nueva y asignarle un valor con el igual "=")
+
+-parseFloat (sirve para definir que el valor de algun dato sea un numero y no un texto o booleano)
+
+-case (es similar a el caso de if y else if, se usa para acortar lineas de codigo)
+
+-break (sirver para marcar el final del case, ya que sino se ejecutaria todo de golpe)
+
+-!isNaN (is not a number sirve para denotar que algo no es de tipo number)
+
+
+
+###########################################################################################
+
+C++
+
+-using namespace std; (sirve para usar abreviaciones en c++ y no estar colocando std::)
+
+-#include (sirve para incluir librerias)
+
+-#include <iostream< (es una libreria de entrada y salida de datos de c++)
+
+-int {integer} (sirve para almacenar numeros enteros, es un tipo de variable)
+
+-double (sirve para almacenar numero decimales correctamente)
+
+-endl / '\n' (significa el final de la linea y basicamente es como un br en html)
+
+-bool (asi se declaran los booleanos en c++)
+
+-std::string (asi se declaran los strings correctamente en c++)
+
+-std::cout << (standar output)
+
+-std::cin >> (standar input)
+
+-std::getLine() (sirve para que los inputs con espacios no rompan la ejecución del codigo)
+
+-typedef / using (se usa para darle un nombre adicional a un dato ya existente (alias), se coloca el nickname al final de todo para asignarlo correctamente en caso de usar typedef, en el caso de using puedes usarlo de manera similar a una variable ej: using number_t = int; (normalmente se coloca "_t" al final de cada nickname para saber que es un apodo ej: texto_t))
+
+-Funciones matematicas en c++ (#include <cmath>):{
+    -std::max() (devuelve el valor mas alto de un grupo de variables)
+
+    -std::min() (devuelve el valor mas bajo de un grupo de variables)
+
+    -pow() (sirve para elevar numeros a el valor que se desee, solo hay que separarlos por una coma)
+
+    -sqrt() (sirve para saber la raiz cuadrada de algo)
+
+    -abs() (da el valor absoluto de algo ej: si colocas -3 el resultado será 3)
+
+    -round() (sirve para redondear algun numero decimal a un numero entero)
+
+    -ceil() (sirve para redondear algun numero decimal a un numero entero pero lo acerca a alguno mayor, ej: x = 3.14; ceil(x) = 4)
+
+    -floor() (es lo mismo que ceil pero en vez de acercarlos hacia arriba los acerca hacia abajo, ej: x = 3.99; floor(x) = 3)
+
+} 
+
+-&& / || / ! (Y / AND - O / OR - NO / NOT respectivamente, son operadores logicos)
+
+-metodos que se pueden usar en strings {
+    -.length() (es un metodo de longitud y se usa mayormente para hacer que al tener un input no se sobre pasen de cierto numero de caracteres, ej: tu nombre no puede tener mas de 12 caracteres)
+
+    -.empty() (este metodo retorna un booleano que sirve para verficar si el input se ingresó vacio (true) o si se ingresó algun texto (false))
+
+    -.append("") (este metodo ingresa otro string al final del input; ej: name.appened("@gmail.com"); dilan@gmail.com (teniendo en cuenta que nayas ingresado tu primer nombre solamente))
+
+    -.at() (este metodo sirve para mandar a llamar a un caracter de algun input, ej: name.at(0); D - name.at(1); I - name.at(2); L, etc)
+
+    -.insert() (es lo mismo que append pero se puede ser mas especifico en donde quieres que se agregue el texto adicional, ej: name.insert(0, @); @dilan)
+
+    -.erase() (con este metodo se puede elegir un numero o un rango de numero que representen las posiciones de las letras de los strings y borrarlos, ej: name.erase(0, 1); lan)
+}
+
+-while() (es un bucle que normalmente se usa para cosas pontencialmente infinitas, es decir que se repite el bloque de codigo que hayamos ante puesto siempre y cuando la condición que este dentro de los parentesis sea verdadera)
+
+-for() (es un bucle parecido a el while solo que este es mayormente usado para bucles que no tienden a ser pontencialmente infinitos, es decir que tiene contada las veces que se va a repetir)
+
+-do while (es un bucle que sirve para hacer un bloque de codigo primero y despues verificar la condición dentro del while, y en caso de que sea verdadera se repetirá hasta que cambie)
 
 
 ###########################################################################################
@@ -59,4 +216,8 @@ OTROS
 
     -Me quedé en 1:55:20 del tutorial de soy dalto de CSS y ya completé el tutorial de hola mundo de CSS
 
-    -Me quedé en 0:16:00 del tutorial de deivchoi de JAVASCRIPT 
+    - pseudocodigos - C - C++ - Java - Python
+
+    -Me quedé en el 0:14:00 del tutorial de c++ de aprende a programar
+
+    -Me quedé en el 0:52:40 del tutorial de c++ de bro code
