@@ -1,13 +1,15 @@
 #include <iostream>
 
 int main() {
-   int number;
+   
 
-   do{
-      std::cout << "ingresa un numero positivo: ";
-      std::cin >> number;
-   }while(number < 0);
+   for (int i = 0; i <= 99; i++)
+   {
+      std::cout << i << '\n';
+      
+   }
 
-   std::cout << "el numero positivo es: " << number;
+   std::cout << "hola";
+   
    return 0;
 }

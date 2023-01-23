@@ -209,6 +209,8 @@ C++
 
 -do while (es un bucle que sirve para hacer un bloque de codigo primero y despues verificar la condición dentro del while, y en caso de que sea verdadera se repetirá hasta que cambie)
 
+-srand()
+
 
 ###########################################################################################
 
@@ -216,8 +218,8 @@ OTROS
 
     -Me quedé en 1:55:20 del tutorial de soy dalto de CSS y ya completé el tutorial de hola mundo de CSS
 
-    - pseudocodigos - C - C++ - Java - Python
+    - pseudocodigos - C - C++ - Java - Python {ruta de aprendizaje de la U}
 
     -Me quedé en el 0:14:00 del tutorial de c++ de aprende a programar
 
-    -Me quedé en el 0:52:40 del tutorial de c++ de bro code
+    -Me quedé en "do a while loop" del tutorial de c++ de bro code
